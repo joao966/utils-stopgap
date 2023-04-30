@@ -5,7 +5,7 @@ import { UpdateParsingDto } from './dto/update-parsing.dto';
 @Injectable()
 export class ParsingService {
   create(createParsingDto: CreateParsingDto) {
-    return `This action returns a create`;
+    return { text: 'text' };
   }
 
   findAll() {
